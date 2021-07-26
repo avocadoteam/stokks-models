@@ -1,11 +1,7 @@
-export interface YahooQuote {
-  exchange: string;
+export interface YahooSearchResult {
   shortname?: string;
-  quoteType: string;
   symbol: string;
-  index: string;
-  score: number;
-  typeDisp: string;
   longname?: string;
-  isYahooFinance: boolean;
+  regularMarketChange: number;
+  regularMarketPrice: number;
 }
