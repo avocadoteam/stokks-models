@@ -1,0 +1,13 @@
+{
+  "name": "stokks-models",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  }
+}
