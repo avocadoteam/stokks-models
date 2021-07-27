@@ -10,3 +10,12 @@ export interface SymbolGeneralInfo {
   marketCap: number;
   fullExchangeName: string;
 }
+
+export enum HistoryPeriodTarget {
+  Day = 'day',
+  Week = 'week',
+  Month = 'month',
+  Year = 'year',
+  FiveYears = 'fiveYears',
+  TenYears = 'tenYears',
+}
