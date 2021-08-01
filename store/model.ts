@@ -16,3 +16,9 @@ export interface UserNotificationModel {
   target: NotificationIntervalTarget;
   priceMatch: number;
 }
+
+export interface UserNotificationUpdateModel {
+  target: NotificationIntervalTarget;
+  priceMatch: number;
+  delete: boolean;
+}
