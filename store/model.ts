@@ -13,12 +13,12 @@ export interface UserDeleteStoreModel {
 export interface UserNotificationModel {
   userId: number;
   symbol: string;
-  target: NotificationIntervalTarget;
+  notifyInterval: NotificationIntervalTarget;
   priceMatch: number;
 }
 
 export interface UserNotificationUpdateModel {
-  target: NotificationIntervalTarget;
+  notifyInterval: NotificationIntervalTarget;
   priceMatch: number;
   delete: boolean;
 }
