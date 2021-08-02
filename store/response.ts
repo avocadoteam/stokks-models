@@ -1,4 +1,4 @@
-import { NotificationIntervalTarget } from '../notifications';
+import { NotificationIntervalTarget, TriggerName, TriggerParam } from '../notifications';
 import { YahooSearchResult } from '../yahoo';
 
 export interface UserStoreItem extends YahooSearchResult {
@@ -7,7 +7,9 @@ export interface UserStoreItem extends YahooSearchResult {
 
 export interface UserNotificationInfo {
   id: number;
-  priceMatch: number;
+  triggerParam: TriggerParam;
+  triggerName: TriggerName;
+  triggerValue: string;
   notifyInterval: NotificationIntervalTarget;
   deleted: Date | null;
 }

@@ -1,4 +1,4 @@
-import { NotificationIntervalTarget } from '../notifications';
+import { NotificationIntervalTarget, TriggerParam } from '../notifications';
 
 export interface UserStoreModel {
   userId: number;
@@ -14,11 +14,13 @@ export interface UserNotificationModel {
   userId: number;
   symbol: string;
   notifyInterval: NotificationIntervalTarget;
-  priceMatch: number;
+  triggerParam: TriggerParam;
+  triggerValue: string;
 }
 
 export interface UserNotificationUpdateModel {
   notifyInterval: NotificationIntervalTarget;
-  priceMatch: number;
+  triggerParam: TriggerParam;
+  triggerValue: string;
   delete: boolean;
 }
