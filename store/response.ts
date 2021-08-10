@@ -1,8 +1,9 @@
 import { NotificationIntervalTarget, TriggerName, TriggerParam } from '../notifications';
-import { YahooSearchResult } from '../yahoo';
+import { HistoricalRow, YahooSearchResult } from '../yahoo';
 
 export interface UserStoreItem extends YahooSearchResult {
   symbolId: string;
+  history: HistoricalRow[];
 }
 
 export interface UserNotificationInfo {
