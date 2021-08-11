@@ -1,9 +1,7 @@
-export interface HistoricalRow {
-  date: Date;
-  open: number;
-  high: number;
-  low: number;
-  close: number;
-  adjClose?: number;
-  volume: number;
+export interface HistoricalData {
+  volume: number[];
+  high: number[];
+  open: number[];
+  low: number[];
+  close: number[];
 }
