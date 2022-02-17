@@ -17,8 +17,8 @@ export interface SymbolHystoryModel extends SymbolInfoModel {
   target: HistoryPeriodTarget;
 }
 export interface TweetsModel {
-  query: string
+  query: string;
 }
 export interface NewsItemsModel {
-  query: string
+  query: string;
 }
