@@ -14,8 +14,8 @@ export interface UserDeleteStoreModel {
 }
 
 export interface UserGetNotificationModel {
-  symbol: string;
   userId: number;
+  symbolId: string;
 }
 
 export interface UserNotificationModel {
