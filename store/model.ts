@@ -13,6 +13,11 @@ export interface UserDeleteStoreModel {
   symbolId: string;
 }
 
+export interface UserGetNotificationModel {
+  symbol: string;
+  userId: number;
+}
+
 export interface UserNotificationModel {
   userId: number;
   symbol: string;
@@ -22,6 +27,8 @@ export interface UserNotificationModel {
 }
 
 export interface UserNotificationUpdateModel {
+  id: number;
+  userId: number;
   notifyInterval: NotificationIntervalTarget;
   triggerParam: TriggerParam;
   triggerValue: string;
