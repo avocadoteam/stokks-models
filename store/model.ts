@@ -27,8 +27,6 @@ export interface UserNotificationModel {
 }
 
 export interface UserNotificationUpdateModel {
-  id: number;
-  userId: number;
   notifyInterval: NotificationIntervalTarget;
   triggerParam: TriggerParam;
   triggerValue: string;
