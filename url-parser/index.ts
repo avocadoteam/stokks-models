@@ -1,7 +1,8 @@
 export interface UrlParseResponse {
+  link: string;
   imgUrl: string | null;
 }
 
 export interface UrlParserModel {
-  link: string;
+  links: string[];
 }
