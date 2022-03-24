@@ -3,6 +3,10 @@ import { NotificationIntervalTarget, TriggerParam } from '../notifications';
 export interface UserCreateModel {
   password: string;
 }
+export interface UserGoogleCreateModel {
+  id: string;
+  email: string;
+}
 export interface UserStoreModel {
   userId: number;
   symbol: string;
