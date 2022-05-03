@@ -36,3 +36,6 @@ export interface UserNotificationUpdateModel {
   triggerValue: string;
   delete: boolean;
 }
+export interface UserNotificationInstallModel {
+  token: string;
+}
