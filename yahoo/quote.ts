@@ -10,6 +10,7 @@ export interface SymbolGeneralInfo {
   marketCap: number;
   fullExchangeName: string;
   symbolId: string | null;
+  label: string;
 }
 
 export enum HistoryPeriodTarget {
