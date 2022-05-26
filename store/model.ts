@@ -8,12 +8,10 @@ export interface UserGoogleCreateModel {
   email: string;
 }
 export interface UserStoreModel {
-  userId: number;
   symbol: string;
 }
 
 export interface UserDeleteStoreModel {
-  userId: number;
   symbolId: string;
 }
 
@@ -23,7 +21,6 @@ export interface UserGetNotificationModel {
 }
 
 export interface UserNotificationModel {
-  userId: number;
   symbol: string;
   notifyInterval: NotificationIntervalTarget;
   triggerParam: TriggerParam;
