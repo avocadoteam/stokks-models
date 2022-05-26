@@ -38,4 +38,5 @@ export interface UserNotificationUpdateModel {
 }
 export interface UserNotificationInstallModel {
   token: string;
+  device: string;
 }
