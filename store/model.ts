@@ -33,7 +33,12 @@ export interface UserNotificationUpdateModel {
   triggerValue: string;
   delete: boolean;
 }
-export interface UserNotificationInstallModel {
+export interface UserExpoSettingsInstallModel {
   token: string;
+  device: string;
+}
+
+export interface UserExpoSettingsPatchModel {
+  enable: boolean;
   device: string;
 }
