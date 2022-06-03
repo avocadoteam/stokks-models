@@ -3,5 +3,5 @@ export interface NewsItem {
   title: string;
   publisher: string;
   link: string;
-  providerPublishTime: Date | string;
+  providerPublishTime: number;
 }
