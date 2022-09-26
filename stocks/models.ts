@@ -3,6 +3,12 @@ import { HistoryPeriodTarget } from '../yahoo/quote';
 export interface SearchModel {
   query: string;
 }
+export interface SearchLangModel extends SearchModel {
+  /**
+   * en | ru
+   */
+  lang: string;
+}
 export interface TrendingModel {
   /**
    * max - 8,

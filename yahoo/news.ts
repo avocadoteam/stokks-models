@@ -4,4 +4,5 @@ export interface NewsItem {
   publisher: string;
   link: string;
   providerPublishTime: number;
+  imgUrl?: string;
 }
